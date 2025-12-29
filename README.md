@@ -19,20 +19,20 @@
 #    Architecture :
 
 GitHub (Application Repo)
-        |
-        v
+        -
+        >
      Jenkins (CI)
-        |
-        v
+        -
+        >
     Docker Hub
-        |
-        v
+        -
+        >
 GitHub (Manifests Repo - GitOps)
-        |
-        v
+        -
+        >
      Argo CD
-        |
-        v
+        -
+        >
      AWS EKS Cluster
 
 
@@ -43,7 +43,7 @@ Application Source Code             	https://github.com/VIVEKCHOWDARI10/SampleJa
 Kubernetes Manifests (GitOps)       	https://github.com/VIVEKCHOWDARI10/Jenkins
 
 
-Tools & Technologies
+# Tools & Technologies :
 
 * AWS EC2 – Jenkins & CI host
 
@@ -71,7 +71,7 @@ Tools & Technologies
 
 2. Jenkins pipeline is triggered
 
-Jenkins:
+   Jenkins:
 
 3. Clones application repo
 
@@ -87,7 +87,7 @@ Jenkins:
 
 9. Argo CD automatically syncs and deploys changes to AWS EKS
 
-10. Application is accessible via Kubernetes Service (LoadBalancer)
+ 10. Application is accessible via Kubernetes Service (LoadBalancer)
 
 
      
