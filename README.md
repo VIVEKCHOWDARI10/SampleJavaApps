@@ -1,8 +1,8 @@
 # End-to-End CI/CD Pipeline with Jenkins, Docker, Argo CD & AWS EKS
 
- # Project Overview:
+# Project Overview:
 
-   This project demonstrates a complete CI/CD (Continuous Integration & Continuous Deployment) pipeline that automates the build, containerization, and deployment of a Spring Boot application on AWS EKS using GitOps principles.
+   This project demonstrates a complete CI/CD (Continuous Integration & Continuous Deployment) pipeline that automates the build, containerization, and deployment of a Spring Boot  application on AWS EKS using GitOps principles.
 
   The pipeline is designed to:
 
@@ -16,7 +16,7 @@
 
 
 
-#    Architecture :
+ #  Architecture :
 
 GitHub (Application Repo)
         -
@@ -71,9 +71,7 @@ Kubernetes Manifests (GitOps)       	https://github.com/VIVEKCHOWDARI10/Jenkins
 
 2. Jenkins pipeline is triggered
 
-   Jenkins:
-
-3. Clones application repo
+3. Jenkins Clones application repo
 
 4. Builds the application using Maven
 
