@@ -1,5 +1,5 @@
 # Use the official Java runtime image for running the application
-FROM openjdk:17-jdk-slim
+FROM  eclipse-temurin:17-jdk
 
 
 # Set the working directory
